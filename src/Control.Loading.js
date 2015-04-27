@@ -70,7 +70,7 @@
                 }
                 else {
                     // Otherwise, create a container for the indicator
-                    container = L.DomUtil.create('div', 'leaflet-control-zoom leaflet-bar');
+                    container = L.DomUtil.create('div', 'leaflet-control-zoom leaflet-bar spinner');
                 }
                 this._indicator = L.DomUtil.create('a', classes, container);
                 if (this.options.spinjs) {
