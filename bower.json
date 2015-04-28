@@ -13,9 +13,6 @@
     "gis",
     "loading"
   ],
-  "dependencies": {
-      "leaflet": ">=0.6"
-  },
   "license": "MIT",
   "ignore": [
     "**/.*",
